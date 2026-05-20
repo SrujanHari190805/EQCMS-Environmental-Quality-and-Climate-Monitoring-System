@@ -35,8 +35,10 @@ EQCMS is a permanent campus infrastructure asset that continuously measures six 
 ---
 ![Circuit Diagram](images/eqcms_cd.png)
 *Circuit diagram of the EQCMS node*
+
 ![Block Diagram](images/eqcms_bd.png)
 *System block diagram*
+
 ![Flow Diagram](images/eqcms_fc.png)
 *System flow diagram*
 
@@ -70,11 +72,13 @@ EQCMS is a permanent campus infrastructure asset that continuously measures six 
 - NAQI: **23.6** — classified as **"Good"**
 ![Live Dashboard](images/eqcms_dashboard.jpg)
 *Live Grafana dashboard showing real-time PM, CO, temperature and humidity*
+
 ### Long-Term Trends (Nov 2025 – Jan 2026)
 - Clear seasonal inversion observed in winter: SPM 10 frequently peaked above 60–70 µg/m³ in December/January vs. below 20 µg/m³ in early November.
 - High daily volatility (sawtooth pattern) correlates with traffic activity near the parking zone.
 ![Long-Term Seasonal Particulate Trends](images/eqcms_pm.jpg)
 *Long-term PM trends from November 2025 to January 2026*
+
 ![Short-Term Air Quality Analysis](images/eqcms_ag.jpg)
 *Short-term air quality analysis from January 25 to February 3, 2026*
 
@@ -83,7 +87,9 @@ EQCMS is a permanent campus infrastructure asset that continuously measures six 
 - Validated sensor integrity under heavy cloud cover, cold winds, and moisture exposure.
 ![Temperature Analysis](images/eqcms_temp.jpg)
 *Temperature flat-line on November 30, 2025 during Cyclone Ditwah*
+
 ---
+
 
 ## ⚙️ Software Stack
 
