@@ -13,8 +13,15 @@
 EQCMS is a permanent campus infrastructure asset that continuously measures six environmental parameters and transmits them to a live online dashboard. It calculates the **National Air Quality Index (NAQI)** and triggers alerts for hazardous levels. It has been running uninterrupted since August 2025, generating a validated longitudinal air quality dataset.
 
 ---
-![EQCMS Node Deployment](images/eqcms_node.jpg)
-*EQCMS node deployed on the BMSIT&M campus electric pole since August 2025*
+
+<p align="center">
+  <img src="images/eqcms_node.jpg" width="700" alt="EQCMS Node Deployment"/>
+  <br>
+  <i>EQCMS node deployed on the BMSIT&M campus electric pole since August 2025</i>
+</p>
+
+---
+
 ## 🏗️ System Architecture
 
 ```
@@ -32,15 +39,20 @@ EQCMS is a permanent campus infrastructure asset that continuously measures six 
                                                   [LED Display (on-site)]
 ```
 
+<p align="center">
+  <img src="images/eqcms_cd.png" width="450" alt="Circuit Diagram"/>
+  <img src="images/eqcms_bd.png" width="450" alt="Block Diagram"/>
+  <br>
+  <i>Circuit diagram (left) and Block diagram (right)</i>
+</p>
+
+<p align="center">
+  <img src="images/eqcms_fc.png" width="500" alt="Flow Diagram"/>
+  <br>
+  <i>System flow diagram</i>
+</p>
+
 ---
-![Circuit Diagram](images/eqcms_cd.png)
-*Circuit diagram of the EQCMS node*
-
-![Block Diagram](images/eqcms_bd.png)
-*System block diagram*
-
-![Flow Diagram](images/eqcms_fc.png)
-*System flow diagram*
 
 ## 🔧 Hardware Components
 
@@ -70,26 +82,40 @@ EQCMS is a permanent campus infrastructure asset that continuously measures six 
 - Temperature: **27.6°C**, Humidity: **65.4%**
 - CO: **0.95 mg/m³** (well below the hazardous threshold of 2–4 mg/m³)
 - NAQI: **23.6** — classified as **"Good"**
-![Live Dashboard](images/eqcms_dashboard.jpg)
-*Live Grafana dashboard showing real-time PM, CO, temperature and humidity*
+
+<p align="center">
+  <img src="images/eqcms_dashboard.jpg" width="700" alt="Live Grafana Dashboard"/>
+  <br>
+  <i>Live Grafana dashboard showing real-time PM, CO, temperature and humidity</i>
+</p>
 
 ### Long-Term Trends (Nov 2025 – Jan 2026)
 - Clear seasonal inversion observed in winter: SPM 10 frequently peaked above 60–70 µg/m³ in December/January vs. below 20 µg/m³ in early November.
 - High daily volatility (sawtooth pattern) correlates with traffic activity near the parking zone.
-![Long-Term Seasonal Particulate Trends](images/eqcms_pm.jpg)
-*Long-term PM trends from November 2025 to January 2026*
 
-![Short-Term Air Quality Analysis](images/eqcms_ag.jpg)
-*Short-term air quality analysis from January 25 to February 3, 2026*
+<p align="center">
+  <img src="images/eqcms_pm.jpg" width="700" alt="Long-Term Seasonal Particulate Trends"/>
+  <br>
+  <i>Long-term PM trends from November 2025 to January 2026</i>
+</p>
+
+<p align="center">
+  <img src="images/eqcms_ag.jpg" width="700" alt="Short-Term Air Quality Analysis"/>
+  <br>
+  <i>Short-term air quality analysis from January 25 to February 3, 2026</i>
+</p>
 
 ### Significant Event: Cyclone Ditwah (Nov 30, 2025)
 - Temperature held flat between 19–21°C for the entire day (10 AM – 5:30 PM) — a "day without a noon."
 - Validated sensor integrity under heavy cloud cover, cold winds, and moisture exposure.
-![Temperature Analysis](images/eqcms_temp.jpg)
-*Temperature flat-line on November 30, 2025 during Cyclone Ditwah*
+
+<p align="center">
+  <img src="images/eqcms_temp.jpg" width="700" alt="Temperature Analysis Cyclone Ditwah"/>
+  <br>
+  <i>Temperature flat-line on November 30, 2025 during Cyclone Ditwah</i>
+</p>
 
 ---
-
 
 ## ⚙️ Software Stack
 
