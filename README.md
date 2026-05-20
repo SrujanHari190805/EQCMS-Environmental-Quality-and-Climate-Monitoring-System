@@ -14,20 +14,6 @@ EQCMS is a permanent campus infrastructure asset that continuously measures six 
 
 ---
 
-## 🖼️ Suggested Media to Add
-
-| What to Add | Where to Get It |
-|---|---|
-| Photo of the deployed node on the campus electric pole | Take from your field deployment |
-| Screenshot of the live Grafana dashboard | Export from your Grafana instance |
-| Long-term PM trend graph (Nov 2025 – Jan 2026) | Export from the report/dashboard |
-| Short-term air quality graph (Jan 25 – Feb 3, 2026) | Export from the report |
-| Temperature flat-line graph (Nov 30, 2025 cyclone day) | Export from the report |
-| Circuit/wiring diagram | From EQCMS report Fig 1 |
-| Block diagram | From EQCMS report Fig 2 |
-| Flow diagram | From EQCMS report Fig 3 |
-
----
 
 ## 🏗️ System Architecture
 
