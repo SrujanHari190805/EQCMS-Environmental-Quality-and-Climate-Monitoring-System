@@ -15,7 +15,7 @@ EQCMS is a permanent campus infrastructure asset that continuously measures six 
 ---
 
 <p align="center">
-  <img src="images/eqcms_node.jpg" width="300" alt="EQCMS Node Deployment"/>
+  <img src="images/eqcms_node.jpg" width="200" alt="EQCMS Node Deployment"/>
   <br>
   <i>EQCMS node deployed on the BMSIT&M campus electric pole since August 2025</i>
 </p>
