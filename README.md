@@ -13,7 +13,7 @@
 EQCMS is a permanent campus infrastructure asset that continuously measures six environmental parameters and transmits them to a live online dashboard. It calculates the **National Air Quality Index (NAQI)** and triggers alerts for hazardous levels. It has been running uninterrupted since August 2025, generating a validated longitudinal air quality dataset.
 
 ---
-
+![EQCMS Node Deployment](images/eqcms_node.jpg)
 
 ## 🏗️ System Architecture
 
@@ -33,6 +33,9 @@ EQCMS is a permanent campus infrastructure asset that continuously measures six 
 ```
 
 ---
+![Circuit Diagram](images/eqcms_cd.png)
+![Block Diagram](images/eqcms_bd.png)
+![Flow Diagram](images/eqcms_fc.png)
 
 ## 🔧 Hardware Components
 
@@ -62,14 +65,18 @@ EQCMS is a permanent campus infrastructure asset that continuously measures six 
 - Temperature: **27.6°C**, Humidity: **65.4%**
 - CO: **0.95 mg/m³** (well below the hazardous threshold of 2–4 mg/m³)
 - NAQI: **23.6** — classified as **"Good"**
+![Live Dashboard](images/eqcms_dashboard.jpg)
 
 ### Long-Term Trends (Nov 2025 – Jan 2026)
 - Clear seasonal inversion observed in winter: SPM 10 frequently peaked above 60–70 µg/m³ in December/January vs. below 20 µg/m³ in early November.
 - High daily volatility (sawtooth pattern) correlates with traffic activity near the parking zone.
+![Long-Term Seasonal Particulate Trends](images/eqcms_pm.jpg)
+![Short-Term Air Quality Analysis](images/eqcms_ag.jpg)
 
 ### Significant Event: Cyclone Ditwah (Nov 30, 2025)
 - Temperature held flat between 19–21°C for the entire day (10 AM – 5:30 PM) — a "day without a noon."
 - Validated sensor integrity under heavy cloud cover, cold winds, and moisture exposure.
+![Temperature Analysis](images/eqcms_temp.jpg)
 
 ---
 
